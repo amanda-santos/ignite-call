@@ -34,3 +34,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+-- 
+
+On this application, the user is created on the `register` page. Then, the authentication is done with Google on the `connect-calendar` page. Because of this specific behavior (user created before the authentication), it was necessary to create our own Next Auth adapter.
