@@ -15,7 +15,7 @@ const registerFormSchema = z.object({
   username: z
     .string()
     .min(3, { message: 'O usuário precisa ter pelo menos 3 letras.' })
-    .max(12, { message: 'O usuário precisa ter no máximo 12 caracteres.' })
+    .max(20, { message: 'O usuário precisa ter no máximo 20 caracteres.' })
     .regex(/^([a-z\\-]+)$/i, {
       message: 'O usuário pode ter apenas letras e hifens.',
     })
