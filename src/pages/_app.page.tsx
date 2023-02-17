@@ -7,6 +7,8 @@ import { DefaultSeo } from 'next-seo'
 import { queryClient } from '../lib/react-query'
 import { globalStyles } from '../styles/global'
 
+import '../styles/inputs.css'
+
 globalStyles()
 
 export default function App({
@@ -20,7 +22,7 @@ export default function App({
           openGraph={{
             type: 'website',
             locale: 'pt_BR',
-            url: 'https://www.ignite-call.rocketseat.com.br',
+            url: 'https://ignite-call-amanda-santos.vercel.app/',
             siteName: 'Ignite Call',
           }}
         />

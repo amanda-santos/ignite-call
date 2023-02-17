@@ -13,6 +13,11 @@ export const Hero = styled('div', {
   maxWidth: 480,
   padding: '0 $10',
 
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'flex-start',
+  gap: '$6',
+
   [`> ${Heading}`]: {
     '@media(max-width: 600px)': {
       fontSize: '$6xl',
