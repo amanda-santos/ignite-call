@@ -58,6 +58,8 @@ Technologies used to develop this project:
 
 📺 Click <a href="https://ignite-call-amanda-santos.vercel.app/">here</a> to see a live preview.
 
+https://user-images.githubusercontent.com/49074930/219811289-e4fb2a68-895b-4344-a5a1-91d1bdc249d4.mp4
+
 ## ⌨ Getting started
 
 - Run `npm i` to install the dependencies
